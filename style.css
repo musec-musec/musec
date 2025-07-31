@@ -723,6 +723,8 @@ margin-top: 30px;
 
 .messages-card {
     width: 270px;
+   cursor: pointer;
+    width: 120px;
     height: 70px;
     background: #0F0F0F;
     border-radius: 100px;
@@ -733,7 +735,7 @@ margin-top: 30px;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin-left: 54px;
+    margin-left: 50px;
 }
 
 .messages-card h3 {
@@ -745,6 +747,9 @@ margin-top: 30px;
     left: 100px;
     gap: 0px;
     margin-left: 45px;
+    left: 120px;
+    gap: 0px;
+    margin-left: 95px;
 }
 
 .message-avatars {
@@ -1072,6 +1077,327 @@ margin-top: 30px;
     .messages-card h3 {
         font-size: 14px;
         margin-left: 20px; 
+    }
+    /* .live-button {
+        padding: 5px 8px;
+        font-size: 9px;
+    }
+    .live-button .icon {
+        font-size: 14px;
+    } */
+    .post-actions {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;
+    }
+    .action-button {
+        flex: 1 1 45%; 
+        justify-content: center;
+    }
+    .story-circle {
+        width: 70px; 
+        height: 70px;
+        min-width: 70px;
+    }
+    .plus-icon {
+        font-size: 22px; 
+    }
+}
+
+@media (max-width: 375px) {
+    .header-nav {
+        gap: 8px;
+    }
+    .nav-item span {
+        font-size: 10px;
+    }
+    .search-bar input {
+        font-size: 11px;
+    }
+    .user-info .welcome-text {
+        font-size: 16px;
+    }
+    .user-info .user-name {
+        font-size: 24px;
+    }
+    .post-input-area input {
+        font-size: 12px;
+    }
+    .post-option {
+        font-size: 12px;
+    }
+    .post-option .fas {
+        font-size: 16px;
+    }
+    .studio-listing h4 {
+        font-size: 18px;
+    }
+    .studio-details {
+        font-size: 9px;
+    }
+    .book-button {
+        font-size: 10px;
+        width: 60px;
+        height: 20px;
+    }
+    .post-content {
+        font-size: 16px;
+    }
+    .action-button {
+        font-size: 12px;
+        gap: 3px;
+    }
+    .action-button .icon.fas {
+        font-size: 20px;
+    }
+    .musician-info .name {
+        font-size: 12px;
+    }
+    .musician-info .role {
+        font-size: 10px;
+    }
+    .connect-button {
+        font-size: 7px;
+        width: 70px;
+        height: 20px;
+    }
+    .messages-card h3 {
+        font-size: 12px;
+    }
+    .message-avatars img {
+        width: 30px;
+        height: 30px;
+        margin-left: -15px;
+    }
+    .messages-card-icon.fas {
+        font-size: 20px;
+    }
+    .story-circle {
+        width: 60px; 
+        height: 60px;
+        min-width: 60px;
+    }
+    .plus-icon {
+        font-size: 20px; 
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .header {
+        max-width: 1920px;
+        padding: 0 120px;
+        height: 100px;
+    }
+    .search-bar {
+        width: 550px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .search-bar input {
+        font-size: 16px;
+    }
+    .header-nav {
+        gap: 50px;
+    }
+    .nav-item {
+        font-size: 14px;
+    }
+    .nav-item .icon {
+        font-size: 28px;
+    }
+    .profile-pic-header {
+        width: 45px;
+        height: 45px;
+    }
+    .main-content {
+        width: 1800px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 220px; 
+        gap: 50px;
+    }
+    .left-column {
+        width: 550px;
+        gap: 30px;
+        transform: translateY(-80px); 
+    }
+    .user-greeting .profile-pic-large {
+        width: 100px;
+        height: 100px;
+    }
+    .user-greeting .profile-pic-large img {
+        width: 180px;
+        height: 180px;
+    }
+    .user-info .welcome-text {
+        font-size: 30px;
+    }
+    .user-info .user-name {
+        font-size: 45px;
+    }
+    .create-post-card {
+        width: 500px;
+        height: 130px;
+        padding: 20px;
+    }
+    .post-input-area .profile-pic-small {
+        width: 55px;
+        height: 55px;
+    }
+    .post-input-area input {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .post-option {
+        font-size: 16px;
+    }
+    .post-option .fas {
+        font-size: 22px;
+    }
+    .find-studios-card {
+        width: 500px;
+        padding: 20px;
+    }
+    .find-studios-card h3 {
+        font-size: 24px;
+    }
+    .map-container {
+        width: 460px;
+        height: 400px;
+    }
+    .studio-listing {
+        width: 460px;
+        height: 75px;
+        padding: 20px;
+    }
+    .studio-listing h4 {
+        font-size: 30px;
+    }
+    .studio-details {
+        font-size: 12px;
+        gap: 15px;
+    }
+    .studio-details .fas {
+        font-size: 14px;
+    }
+    .book-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 80px;
+        height: 28px;
+    }
+
+    .middle-column {
+        width: 650px;
+        padding-top: 80px;
+        gap: 30px;
+    }
+    .story-bar {
+        height: 100px;
+        gap: 20px;
+        top: 100px;
+    }
+    .story-circle {
+        width: 100px;
+        height: 100px;
+        min-width: 100px;
+    }
+    .plus-icon {
+        font-size: 30px;
+    }
+    .post-card {
+        width: 650px;
+        padding: 25px;
+        gap: 20px;
+    }
+    .post-header .profile-pic-post {
+        width: 65px;
+        height: 65px;
+    }
+    .post-author-info .name {
+        font-size: 20px;
+    }
+    .post-author-info .followers,
+    .post-author-info .time-ago {
+        font-size: 16px;
+    }
+    .post-content {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .post-image {
+        height: 350px;
+    }
+    .action-button {
+        font-size: 16px;
+        gap: 8px;
+    }
+    .action-button .icon.fas {
+        font-size: 28px;
+    }
+
+    .right-column {
+        width: 450px;
+        gap: 30px;
+    }
+    .connect-card {
+        width: 400px;
+        min-height: 700px;
+        padding: 15px;
+        gap: 15px;
+    }
+    .connect-card h3 {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .close-button {
+        width: 50px;
+        height: 50px;
+        right: 5px;
+        top: -10px;
+    }
+    .close-button .arrow.fas {
+        font-size: 22px;
+    }
+    .musician-profile {
+        padding: 12px 18px;
+        gap: 20px;
+    }
+    .musician-profile .profile-pic {
+        width: 60px;
+        height: 60px;
+    }
+    .musician-info .name {
+        font-size: 26px;
+    }
+    .musician-info .role {
+        font-size: 9px;
+    }
+    .connect-button {
+        padding: 10px 18px;
+        font-size: 9px;
+        width: 90px;
+        height: 28px;
+    }
+    .messages-card {
+        width: 320px;
+        height: 80px;
+        padding: 0 25px;
+        margin-left: 60px;
+    }
+    .messages-card h3 {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    .message-avatars img {
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+    }
+    .messages-card-icon.fas {
+        font-size: 26px;
+        left: 30px;
     }
     /* .live-button {
         padding: 5px 8px;
